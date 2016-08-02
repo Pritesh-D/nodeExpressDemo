@@ -1,0 +1,529 @@
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Header/>
+<s:Body>
+<HotelRoomAvailResponse xmlns="http://tavisca.com">
+<HotelRoomAvailResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<ServiceStatus>
+<ErrorMessage i:nil="true"/>
+<InvalidItems xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+<MissingItems xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+<Status>Success</Status>
+<StatusCode>0</StatusCode>
+<WarningMessage i:nil="true"/>
+</ServiceStatus>
+<SessionId>edb114f5-f67e-4cda-ac19-506f02330dfe</SessionId>
+<Itinerary>
+<AdditionalInformation>
+<StateBag>
+<Name>RoomFromFaresourceIds</Name>
+<Value/>
+</StateBag>
+</AdditionalInformation>
+<AvailableAddons i:nil="true"/>
+<Id>00000000-0000-0000-0000-000000000000</Id>
+<ItineraryStatus>Unbooked</ItineraryStatus>
+<Notes i:nil="true"/>
+<PointsGenerationInfo i:nil="true"/>
+<PointsRedemptionInfo i:nil="true"/>
+<Rph>0</Rph>
+<SelectedAddons i:nil="true"/>
+<Tags i:nil="true"/>
+<AcceptableDeposits/>
+<AcceptableGuarantees/>
+<Deals/>
+<DepositText xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+<GuaranteeText xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+<HotelDeals/>
+<HotelFareSource>
+<AccountCodes xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+<Family>AmadeusWS</Family>
+<Id>20120</Id>
+<Name i:nil="true"/>
+</HotelFareSource>
+<HotelProperty>
+<ActivityOptions>
+<Activity>
+<Name>Health club</Name>
+</Activity>
+</ActivityOptions>
+<Address>
+<Code i:nil="true"/>
+<CodeContext>Address</CodeContext>
+<GeoCode i:nil="true"/>
+<GmtOffsetMinutes>0</GmtOffsetMinutes>
+<Id>0</Id>
+<Name i:nil="true"/>
+<Radius i:nil="true"/>
+<SupplierSideData/>
+<AddressLine1>500 Fayetteville Street</AddressLine1>
+<AddressLine2/>
+<AddressScheme i:nil="true"/>
+<City>
+<Code i:nil="true"/>
+<CodeContext>City</CodeContext>
+<GeoCode i:nil="true"/>
+<GmtOffsetMinutes>0</GmtOffsetMinutes>
+<Id>0</Id>
+<Name>Raleigh</Name>
+<Radius i:nil="true"/>
+<SupplierSideData/>
+<Country>US</Country>
+<State>NC</State>
+</City>
+<CompleteAddress>500 Fayetteville Street Raleigh NC 27601 US</CompleteAddress>
+<PhoneNumber i:nil="true"/>
+<ZipCode>27601</ZipCode>
+</Address>
+<Amenities>
+<Amenity>
+<Name>Business center</Name>
+</Amenity>
+<Amenity>
+<Name>Convention centre</Name>
+</Amenity>
+<Amenity>
+<Name>Meeting/board rooms</Name>
+</Amenity>
+<Amenity>
+<Name>Coffee shop</Name>
+</Amenity>
+<Amenity>
+<Name>Ice machine</Name>
+</Amenity>
+<Amenity>
+<Name>Restaurant</Name>
+</Amenity>
+<Amenity>
+<Name>Elevators</Name>
+</Amenity>
+<Amenity>
+<Name>Executive floor</Name>
+</Amenity>
+<Amenity>
+<Name>
+High speed internet access for laptop in public areas
+</Name>
+</Amenity>
+<Amenity>
+<Name>Laundry/Valet service</Name>
+</Amenity>
+<Amenity>
+<Name>Valet parking</Name>
+</Amenity>
+<Amenity>
+<Name>Outdoor tennis courts</Name>
+</Amenity>
+<Amenity>
+<Name>Lounges/bars</Name>
+</Amenity>
+<Amenity>
+<Name>Safe deposit box</Name>
+</Amenity>
+<Amenity>
+<Name>Meal plan available</Name>
+</Amenity>
+<Amenity>
+<Name>Air conditioning</Name>
+</Amenity>
+<Amenity>
+<Name>Hairdryer</Name>
+</Amenity>
+<Amenity>
+<Name>Non-smoking</Name>
+</Amenity>
+<Amenity>
+<Name>Color television</Name>
+</Amenity>
+<Amenity>
+<Name>Outdoor pool</Name>
+</Amenity>
+<Amenity>
+<Name>Ballroom</Name>
+</Amenity>
+</Amenities>
+<AreaAttractions/>
+<CheckInOptions>
+<TimeDetail>
+<Day>MON</Day>
+<Time>PT16H</Time>
+</TimeDetail>
+<TimeDetail>
+<Day>TUE</Day>
+<Time>PT16H</Time>
+</TimeDetail>
+<TimeDetail>
+<Day>WED</Day>
+<Time>PT16H</Time>
+</TimeDetail>
+<TimeDetail>
+<Day>THU</Day>
+<Time>PT16H</Time>
+</TimeDetail>
+<TimeDetail>
+<Day>FRI</Day>
+<Time>PT16H</Time>
+</TimeDetail>
+<TimeDetail>
+<Day>SAT</Day>
+<Time>PT16H</Time>
+</TimeDetail>
+<TimeDetail>
+<Day>SUN</Day>
+<Time>PT16H</Time>
+</TimeDetail>
+</CheckInOptions>
+<CheckOutOptions>
+<TimeDetail>
+<Day>MON</Day>
+<Time>PT12H</Time>
+</TimeDetail>
+<TimeDetail>
+<Day>TUE</Day>
+<Time>PT12H</Time>
+</TimeDetail>
+<TimeDetail>
+<Day>WED</Day>
+<Time>PT12H</Time>
+</TimeDetail>
+<TimeDetail>
+<Day>THU</Day>
+<Time>PT12H</Time>
+</TimeDetail>
+<TimeDetail>
+<Day>FRI</Day>
+<Time>PT12H</Time>
+</TimeDetail>
+<TimeDetail>
+<Day>SAT</Day>
+<Time>PT12H</Time>
+</TimeDetail>
+<TimeDetail>
+<Day>SUN</Day>
+<Time>PT12H</Time>
+</TimeDetail>
+</CheckOutOptions>
+<Descriptions xmlns:a="http://schemas.datacontract.org/2004/07/Tavisca.TravelNxt.Hotel.DataContracts">
+<a:HotelDescription>
+<a:Description>Year built - 2008</a:Description>
+<a:Type>Other</a:Type>
+</a:HotelDescription>
+<a:HotelDescription>
+<a:Description>Property safety and security - security</a:Description>
+<a:Type>Description Security information</a:Type>
+</a:HotelDescription>
+<a:HotelDescription>
+<a:Description>
+Check-in - 1600 check-out - 1200 rates are guaranteed family plan available children stay free no pets allowed on property government id required for government bookings government rate subject to change without notice accepted forms of payment agency iata/arc# - club membership id # - credit card - frequent guest # credit cards accepted as payment american express - diners club - discover card - interbank master card - jcb international - master card - visa see individual rate and rules for accepted payment forms
+</a:Description>
+<a:Type>Policy</a:Type>
+</a:HotelDescription>
+<a:HotelDescription>
+<a:Description>12.75 % sales tax based on per room per night</a:Description>
+<a:Type>Description Tax information</a:Type>
+</a:HotelDescription>
+<a:HotelDescription>
+<a:Description>
+Extra adult - no charge extra child - no charge rollaway for adult - no charge rollaway for child - no charge crib - no charge
+</a:Description>
+<a:Type>Description Extra person information</a:Type>
+</a:HotelDescription>
+<a:HotelDescription>
+<a:Description>
+Property type - conference center/convention, hotel ratings - the raleigh marriott city center offers an elevated experience for business and leisure travelers alike. Our hotel guests can enjoy spacious, well-designed hotel rooms and suites, a vast array of luxury amenities, and intuitive service. The comforts of home await you here in raleigh in our thoughtfully appointed hotel rooms each one features a flat-screen tv, marble bathrooms, an ergonomic work area, and luxury bedding. We provide additional perks to ensure a pleasant hotel stay in the city center, such as a heated indoor pool, a fitness center, 15,000 square feet of adaptable event space, and exceptional dining at our hotel*s signature restaurant, rye bar and southern kitchen. Boasting a fantastic location in the city center, our hotel places the best of downtown raleigh within reach we*re minutes from pnc arena and north carolina state university, and we*re attached to the raleigh convention center. Visit us here at the raleigh marriott city center for genuine luxury in the heart of downtown raleigh.
+</a:Description>
+<a:Type>Awards</a:Type>
+</a:HotelDescription>
+<a:HotelDescription>
+<a:Description>
+-Eml: irene.Peterson@marriottraleigh.Com -web: rdu airport 15.6 MI/25.1 KM SE primary property location - city primary city - rdu - raleigh 0 MI/0 KM s amtrak 0.5 MI/0.8 KM NW carolina trailwaysgreyhou 3 MI/4.8 KM NE carter-finley stadium nc 5.8 MI/9.3 KM duke university 25 MI/40.2 KM NW duke energy center for th historical walking tour j.S. Dorton stadium nc st 5 MI/8 KM lincoln theatre marbles kids museum and i 5 MI/8 KM NE meredith college 3 MI/4.8 KM e nc museum of history 5 MI/8 KM n nc museum of natural scie 1 MI/1.6 KM n nc state capitol building 0.5 MI/0.8 KM NW nc state fairgrounds 5 MI/8 KM NW nc state university 2 MI/3.2 KM e peace college 1 MI/1.6 KM n pnc arena 6 MI/9.7 KM raleigh 0 MI/0 KM s raleigh convention center 0.1 MI/0.2 KM n raleigh trolley tour raleigh-durham internatio 15.6 MI/25.1 KM SE red hat amphitheater and 0 MI/0 KM shaw university 5 MI/8 KM s tobacco road tours triangle segway tours university of north carol 27 MI/43.5 KM NW walnut creek music pavili 7 MI/11.3 KM duke energy 1 MI/1.6 KM SE pnc 0.1 MI/0.2 KM n rex hospital 8 MI/12.9 KM NW
+</a:Description>
+<a:Type>Description Property location</a:Type>
+</a:HotelDescription>
+<a:HotelDescription>
+<a:Description>
+-Property has 3 restaurants on-site -rye bar visit our signature rye bar after an exciting day in downtown raleigh and indulge in a perfectly poured cocktail, craft beer, or fine wine. In addition, our restaurant offers flavorful small plates and features live entertainment on fridays and saturdays. -Starbucks start your morning in downtown raleigh with your favorite starbucks coffee drink. We serve freshly baked pastries and snacks, as well as a wide variety of on-the-go food and beverage options. -Rye bar and southern kitchen meals served - breakfast, lunch, dinner rye bar and southern kitchen provides a contemporary twist on traditional southern comfort food. Our restaurant focuses on fresh, locally sourced ingredients, and we also feature a welcoming outdoor patio. Reservations are suggested for friday and saturday
+</a:Description>
+<a:Type>Dining</a:Type>
+</a:HotelDescription>
+</Descriptions>
+<Distance>
+<Amount>0.35</Amount>
+<From>GeoCode</From>
+<Unit>mi</Unit>
+</Distance>
+<FaxNumber>1-919-3340419</FaxNumber>
+<GeoCode>
+<Latitude>35.77358</Latitude>
+<Longitude>-78.63945</Longitude>
+</GeoCode>
+<HotelChain>
+<Agency i:nil="true"/>
+<Code>MC</Code>
+<CodeContext>HotelChain</CodeContext>
+<DK i:nil="true"/>
+<Department i:nil="true"/>
+<Division i:nil="true"/>
+<FullName>Marriott Htls Rsts</FullName>
+<ID>0</ID>
+<Logo>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Logo</Type>
+<Url i:nil="true"/>
+</Logo>
+<ShortName>Marriott Htls Rsts</ShortName>
+</HotelChain>
+<HotelRating/>
+<Id>8396</Id>
+<MediaContent>
+<Media>
+<Caption>SmallThumbnail</Caption>
+<MimeType i:nil="true"/>
+<Type>Logo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/ti/AMD/8396/F6E06CEA94FF48F4835866629FE68C1A
+</Url>
+</Media>
+<Media>
+<Caption>Exterior</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/6F81F7C288D64A14AFAAF0D03EE485F5
+</Url>
+</Media>
+<Media>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/70AD9995F49A4FC5A09172F7D0588A8B
+</Url>
+</Media>
+<Media>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/71212C7035354D5E9E9657ECA8FF764A
+</Url>
+</Media>
+<Media>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/E04FD59C76A945599B75E40B788D974C
+</Url>
+</Media>
+<Media>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/7CFBADEE2D054223921020F4F7AD5E5D
+</Url>
+</Media>
+<Media>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/35329F12672141B59A2BFCBE653F22C3
+</Url>
+</Media>
+<Media>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/2300717C232948F2BFA336BBD72656D8
+</Url>
+</Media>
+<Media>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/F7A68642D38F4005B663B426D0B4EC0C
+</Url>
+</Media>
+<Media>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/3B3A3233021740BFB36AA6DF7EE960EC
+</Url>
+</Media>
+<Media>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/1340C3E417784AF0A53F9EB5BBD49E8D
+</Url>
+</Media>
+<Media>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/525BD308A6334EA79C7342946C45F24E
+</Url>
+</Media>
+<Media>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/6FF8B007B0C44FBB8A1A704DB4A0A674
+</Url>
+</Media>
+<Media>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/432672EEC94245EAB36B8B37FE3A7BC0
+</Url>
+</Media>
+<Media>
+<Caption>Restaurant</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/5B77EA03ABE048A6977FEC1403E5EFF1
+</Url>
+</Media>
+<Media>
+<Caption>Restaurant</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/A744F73B70184986997E142A434C8B7B
+</Url>
+</Media>
+<Media>
+<Caption>NA</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/0F451E4A62CE40779C61EC813A145ECF
+</Url>
+</Media>
+<Media>
+<Caption>Restaurant</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/5DCDDE327043488A8B0BDA1D4A95B5F7
+</Url>
+</Media>
+<Media>
+<Caption>Restaurant</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/3D21AB5AED144103B95C4C4D59775079
+</Url>
+</Media>
+<Media>
+<Caption>Restaurant</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/26EF985DF2C64BFAABEAA4351EF40DB4
+</Url>
+</Media>
+<Media>
+<Caption>Restaurant</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/650B99031DFF4DFE8F56663D58B0753F
+</Url>
+</Media>
+<Media>
+<Caption>Restaurant</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/D1572EC728D4478281F451EC1248C6B1
+</Url>
+</Media>
+<Media>
+<Caption>Restaurant</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/2387D27236C64C8DAE2A545DB4574F70
+</Url>
+</Media>
+<Media>
+<Caption>Restaurant</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/FA4A2E5B63FD41E68BFA3E8058429FE8
+</Url>
+</Media>
+<Media>
+<Caption>Restaurant</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/D170F5ACAB68419C937A5BAD398FF5BE
+</Url>
+</Media>
+<Media>
+<Caption>Restaurant</Caption>
+<MimeType i:nil="true"/>
+<Type>Photo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/fi/AMD/8396/D42A9F487C3041E1AB9B81F2C4D4052C
+</Url>
+</Media>
+</MediaContent>
+<Name>Raleigh Marriott City Center</Name>
+<PhoneNumber>1-919-8331120</PhoneNumber>
+<Reviews/>
+<StateBag/>
+<SupplierHotelId>MCRDUMCM</SupplierHotelId>
+<Thumbnail>
+<Caption>SmallThumbnail</Caption>
+<MimeType i:nil="true"/>
+<Type>Logo</Type>
+<Url>
+https://d3mj096p5q0e20.cloudfront.net/ti/AMD/8396/F6E06CEA94FF48F4835866629FE68C1A
+</Url>
+</Thumbnail>
+</HotelProperty>
+<ItineraryType>Hotel</ItineraryType>
+<Policies/>
+<Rooms/>
+<StayPeriod>
+<Duration>2</Duration>
+<End>2016-08-04T00:00:00</End>
+<Start>2016-08-02T00:00:00</Start>
+</StayPeriod>
+</Itinerary>
+<RoomOccupancyTypes>
+<RoomOccupancyType>
+<OccupancyCode>|1|1:A:0|</OccupancyCode>
+<PaxQuantities>
+<PassengerTypeQuantity>
+<Ages xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+<a:int>0</a:int>
+</Ages>
+<PassengerType>Adult</PassengerType>
+<Quantity>1</Quantity>
+</PassengerTypeQuantity>
+</PaxQuantities>
+</RoomOccupancyType>
+</RoomOccupancyTypes>
+</HotelRoomAvailResult>
+</HotelRoomAvailResponse>
+</s:Body>
+</s:Envelope>

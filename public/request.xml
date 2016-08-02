@@ -1,0 +1,178 @@
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+<s:Header>
+<Action xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none" s:mustUnderstand="1">http://tavisca.com/HotelEngine/HotelRoomAvail</Action>
+<ContextId>61427</ContextId>
+<SessionId>pmwhb12ykeu2ncjjbjrtnk4a</SessionId>
+<IPAddress>52.201.217.22</IPAddress>
+<RequestId>edb114f5-f67e-4cda-ac19-506f02330dfe</RequestId>
+<CallName>HotelRoomListing</CallName>
+<CultureInfoHeader xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="Tavisca.Framework.CulturePlugin">
+<CultureName xmlns="http://schemas.datacontract.org/2004/07/Tavisca.Frameworks.CulturePlugin">en-us</CultureName>
+<CurrencyCode xmlns="http://schemas.datacontract.org/2004/07/Tavisca.Frameworks.CulturePlugin">USD</CurrencyCode>
+</CultureInfoHeader>
+</s:Header>
+<s:Body>
+<HotelRoomAvail xmlns="http://tavisca.com">
+<request xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<AdditionalInfo i:nil="true"/>
+<SessionId>edb114f5-f67e-4cda-ac19-506f02330dfe</SessionId>
+<HotelSearchCriterion>
+<Attributes>
+<StateBag>
+<Name>API_SESSION_ID</Name>
+<Value>edb114f5-f67e-4cda-ac19-506f02330dfe</Value>
+</StateBag>
+</Attributes>
+<MatrixResults>false</MatrixResults>
+<MaximumResults>0</MaximumResults>
+<Pos>
+<AdditionalInfo>
+<StateBag>
+<Name>IPAddress</Name>
+<Value>52.201.217.22</Value>
+</StateBag>
+<StateBag>
+<Name>BookingApplication</Name>
+<Value>Mystique</Value>
+</StateBag>
+<StateBag>
+<Name>CustomerType</Name>
+<Value>traveller</Value>
+</StateBag>
+</AdditionalInfo>
+<AgentSign i:nil="true"/>
+<PosId>2551</PosId>
+<Requester>
+<Agency>
+<AgencyAddress>
+<Code i:nil="true"/>
+<CodeContext>Airport</CodeContext>
+<GeoCode i:nil="true"/>
+<GmtOffsetMinutes>0</GmtOffsetMinutes>
+<Id>0</Id>
+<Name i:nil="true"/>
+<Radius i:nil="true"/>
+<SupplierSideData i:nil="true"/>
+<AddressLine1>Address Line 1</AddressLine1>
+<AddressLine2>Address Line 2</AddressLine2>
+<AddressScheme i:nil="true"/>
+<City>
+<Code i:nil="true"/>
+<CodeContext>Address</CodeContext>
+<GeoCode i:nil="true"/>
+<GmtOffsetMinutes>0</GmtOffsetMinutes>
+<Id>0</Id>
+<Name>CityName</Name>
+<Radius i:nil="true"/>
+<SupplierSideData i:nil="true"/>
+<Country i:nil="true"/>
+<State i:nil="true"/>
+</City>
+<CompleteAddress i:nil="true"/>
+<PhoneNumber>+1 (415) 349-3075</PhoneNumber>
+<ZipCode i:nil="true"/>
+</AgencyAddress>
+<AgencyId>61427</AgencyId>
+<AgencyName>tripcloud</AgencyName>
+</Agency>
+<Code i:nil="true"/>
+<CodeContext>PersonalTravelClient</CodeContext>
+<DK>61427</DK>
+<Department i:nil="true"/>
+<Division i:nil="true"/>
+<FullName i:nil="true"/>
+<ID>0</ID>
+<Logo i:nil="true"/>
+<ShortName i:nil="true"/>
+</Requester>
+<UserPointProfile i:nil="true"/>
+</Pos>
+<PriceCurrencyCode>USD</PriceCurrencyCode>
+<FarePreference>BestFarePreferred</FarePreference>
+<Guests>
+<PassengerTypeQuantity>
+<Ages xmlns:d8p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+<PassengerType>Adult</PassengerType>
+<Quantity>1</Quantity>
+</PassengerTypeQuantity>
+</Guests>
+<IsReturnRooms>true</IsReturnRooms>
+<Location i:type="City">
+<Code/>
+<CodeContext>GeoCode</CodeContext>
+<GeoCode>
+<Latitude>35.77959</Latitude>
+<Longitude>-78.6381454</Longitude>
+</GeoCode>
+<GmtOffsetMinutes>0</GmtOffsetMinutes>
+<Id>0</Id>
+<Name>Raleigh</Name>
+<Radius>
+<Amount>15</Amount>
+<From>Address</From>
+<Unit>mi</Unit>
+</Radius>
+<SupplierSideData i:nil="true"/>
+<Country>US</Country>
+<State>NC</State>
+</Location>
+<NoOfRooms>1</NoOfRooms>
+<ProcessingInfo>
+<DisplayOrder>ByRelevanceScoreDescending</DisplayOrder>
+</ProcessingInfo>
+<RoomOccupancyTypes>
+<RoomOccupancyType>
+<PaxQuantities>
+<PassengerTypeQuantity>
+<Ages xmlns:d10p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+<PassengerType>Adult</PassengerType>
+<Quantity>1</Quantity>
+</PassengerTypeQuantity>
+</PaxQuantities>
+</RoomOccupancyType>
+</RoomOccupancyTypes>
+<SearchType>GeoCode</SearchType>
+<StayPeriod>
+<Duration>2</Duration>
+<End>2016-08-04T00:00:00</End>
+<Start>2016-08-02T00:00:00</Start>
+</StayPeriod>
+<TravelPreference>
+<SpecialRequest i:nil="true"/>
+<VendorPreferences i:nil="true"/>
+<RatingList>
+<HotelRating>
+<Rating>5</Rating>
+<RatingType>Star</RatingType>
+</HotelRating>
+<HotelRating>
+<Rating>4</Rating>
+<RatingType>Star</RatingType>
+</HotelRating>
+<HotelRating>
+<Rating>3</Rating>
+<RatingType>Star</RatingType>
+</HotelRating>
+</RatingList>
+</TravelPreference>
+</HotelSearchCriterion>
+<Itinerary>
+<AdditionalInformation i:nil="true"/>
+<AvailableAddons i:nil="true"/>
+<Id>00000000-0000-0000-0000-000000000000</Id>
+<ItineraryStatus>Unbooked</ItineraryStatus>
+<Notes i:nil="true"/>
+<PointsGenerationInfo i:nil="true"/>
+<PointsRedemptionInfo i:nil="true"/>
+<Rph>0</Rph>
+<SelectedAddons i:nil="true"/>
+<Tags i:nil="true"/>
+<HotelProperty>
+<Id>8396</Id>
+</HotelProperty>
+</Itinerary>
+</request>
+</HotelRoomAvail>
+</s:Body>
+</s:Envelope>

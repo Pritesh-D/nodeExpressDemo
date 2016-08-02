@@ -1,0 +1,16 @@
+{
+  "name": "Demo",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Pritesh",
+  "license": "open",
+  "dependencies": {
+    "express":"4.14.0",
+    "jade":"1.11.0",
+    "express3-handlebars":"*"
+  }
+}
